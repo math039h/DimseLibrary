@@ -9,7 +9,7 @@ using DimseLibrary.Annotations;
 
 namespace DimseLibrary
 {
-    class Dimser : INotifyPropertyChanged
+    public class Dimser : INotifyPropertyChanged
     {
         //Properties
         private string _name;
