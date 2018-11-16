@@ -26,6 +26,43 @@ namespace DimseLibrary
                 OnPropertyChanged();
             }
         }
+        public int Age
+        {
+            get { return _age; }
+            set
+            {
+                _age = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public string Email
+        {
+            get { return _email; }
+            set
+            {
+                _email = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public string PhoneNumber
+        {
+            get { return _phoneNumber; }
+            set
+            {
+                _phoneNumber = value;
+                OnPropertyChanged();
+            }
+        }
+        //Liste af dimser
+        List<Dimser> DimseListe = new List<Dimser>();
+
+        //Constructor
+        public Deltager()
+        {
+
+        }
 
         #region PropertyChangeSupport
 
