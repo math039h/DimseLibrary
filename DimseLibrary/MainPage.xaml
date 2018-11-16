@@ -8,6 +8,9 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
+    <Page.DataContext>
+        <local:ViewModel></local:ViewModel>
+    </Page.DataContext>
     <Grid>
         <TextBlock x:Name="Dims1TextBox" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="50" Width="401"/>
         <TextBlock x:Name="Dims2TextBox" HorizontalAlignment="Left" Margin="10,60,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="50" Width="401"/>

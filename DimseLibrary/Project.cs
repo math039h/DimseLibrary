@@ -17,7 +17,7 @@ namespace DimseLibrary
         private int _description;
 
         //Liste af deltager
-        List<Deltager> DeltagerListe = new List<Deltager>();
+        List<Deltager> _deltagerListe = new List<Deltager>();
 
 
 
