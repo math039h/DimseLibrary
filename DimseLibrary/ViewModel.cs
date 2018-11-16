@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace DimseLibrary
 {
-    class ViewModel
+    public class ViewModel
     {
+        public ViewModel()
+        {
+
+        }
     }
 }
