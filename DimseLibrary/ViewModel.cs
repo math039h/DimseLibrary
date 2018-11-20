@@ -14,10 +14,10 @@ namespace DimseLibrary
         public ViewModel()
         {
             Dimser.Add(new Dimser(){Name = "robot"});
-            Dimser.Add(new Dimser() { Name = "robot" });
+            Dimser.Add(new Dimser() { Name = "reb" });
 
-            Dimser.Add(new Dimser() { Name = "robot" });
-            Dimser.Add(new Dimser() { Name = "robot" });
+            Dimser.Add(new Dimser() { Name = "pot" });
+            Dimser.Add(new Dimser() { Name = "tot" });
 
         }
 
